@@ -24,12 +24,31 @@ const text = {
   conduit: "",
   marvel: "",
 };
+
 export const App = () => {
   return (
     <div className={styles[`main-wrapper`]}>
       <section>
         <span className={styles[`category-title`]}>React + TypeScript</span>
         <hr />
+        <div className={styles.project}>
+          <p>
+            <a
+              className={styles["project-title"]}
+              href="https://drive.google.com/file/d/11EfKzSM7jB7rhvj6CLFQSGUjGqL3cTbv/view?usp=sharing"
+            >
+              IT BootCamp Internship Project
+            </a>
+          </p>
+          <p>
+            I can't demonstrate source code under NDA policy, but i can show
+            some of my main tasks in this
+          </p>
+          <p>
+            Technologies: JS(ES6), React, Typescript, SASS, Redux, RTK Query,
+            Docker, React Tables, Lexical Editor, async mutex, JWT, Husky
+          </p>
+        </div>
         <div className={styles.project}>
           <p>
             <a
@@ -41,9 +60,9 @@ export const App = () => {
           </p>
           <p>
             The application is a multi-page blog with great functionality
-            (Subscription to authors, likes, comments, personalized and global
-            feeds, user account settings, etc.) All features unlocked after
-            registration.
+            (folowing of authors, read personalized feed of subscriptions, use
+            likes, comments, user account settings, etc.)
+            <p>All features unlocked after registration.</p>
           </p>
           <p>
             Technologies: Typescript, React.js, SASS, Redux Toolkit, RTK Query,
@@ -203,11 +222,7 @@ export const App = () => {
               Station 22 cafe
             </a>
           </p>
-          <p>
-            The application is a multi-page blog with great functionality
-            (Subscription to authors, likes, comments, personalized and global
-            feeds, user account settings, etc.)
-          </p>
+          <p>Just a simple minimalistic info layout of cafe</p>
           <p>Technologies: HTML5, CSS3</p>
         </div>
       </section>
