@@ -42,7 +42,7 @@ export const App = () => {
           </p>
           <p>
             I can't demonstrate source code under NDA policy, but i can show
-            some of my main tasks in this
+            some of my main tasks in this presentation
           </p>
           <p>
             Technologies: JS(ES6), React, Typescript, SASS, Redux, RTK Query,
