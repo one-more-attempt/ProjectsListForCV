@@ -1,15 +1,15 @@
 .main-wrapper {
   white-space: pre-line;
-  padding: 0px 50px;
-  // background-color:rgba(245, 245, 220, 0.466);
+  padding: 0px 50px 50px 50px;
 
   .category-title {
     display: block;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 26px;
+    font-weight: 700;
     line-height: 12px;
     margin-top: 40px;
   }
+
   hr {
     border: 1px solid black;
     margin-bottom: 20px;
@@ -18,20 +18,52 @@
   .project {
     margin-bottom: 15px;
     p {
+      font-size: 18px;
       margin: 0;
-      margin-bottom: 3px;
-    }
-    // b{
-    //   font-weight: 500;
-    // }
-    .project-title {
-      font-size: 20px;
-      color: #38b6ff;
+      margin-bottom: 4px;
     }
 
-    span {
+    .divider {
+      font-size: 22px;
+      font-weight: 700;
+      white-space: pre;
+    }
+
+    .project-title {
+      font-size: 22px;
+      color: #38b6ff;
+      font-weight: 500;
+    }
+
+    .project-links {
+      font-size: 18px;
+      color: #38b6ff;
+      font-weight: 500;
+    }
+
+    details {
+      width: fit-content;
+    }
+
+    .content {
+      padding: 10px;
+    }
+
+    summary {
+      padding: 5px 20px;
       font-size: 16px;
-      line-height: 20px;
+      cursor: pointer;
+      background-color: rgba(231, 231, 231, 0.822);
+      border-radius: 5px;
+    }
+
+    details[open] {
+      border: 1px solid #ddd;
+      border-top: none;
+      border-radius: 5px;
+    }
+    details[open] > summary {
+      background-color: #3bb2f73f;
     }
   }
 }
