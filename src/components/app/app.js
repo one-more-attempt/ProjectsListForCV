@@ -1,10 +1,11 @@
 import styles from "./app.module.scss";
 const divider = <span className={styles.divider}> | </span>;
+
 export const App = () => {
   return (
     <div className={styles[`main-wrapper`]}>
       <section>
-        <span className={styles[`category-title`]}>React + TypeScript</span>
+        <span className={styles[`category-title`]}>React Native</span>
         <hr />
         <div className={styles.project}>
           <p>
@@ -53,6 +54,10 @@ export const App = () => {
             </div>
           </details>
         </div>
+      </section>
+      <section>
+        <span className={styles[`category-title`]}>React + TypeScript</span>
+        <hr />
         <div className={styles.project}>
           <p>
             <a
